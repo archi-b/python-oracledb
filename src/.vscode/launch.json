@@ -12,8 +12,7 @@
             "console": "integratedTerminal",
             "cwd": "${workspaceRoot}",
             "env": {
-                "input_file_csv": "D:/PROJETOS/gavb/projetos/input/CRRC039.csv",
-                "oracle_client_path": "C:/Users/pricilak/Desktop/GetNet/instantclient_21_12",
+                "input_file_csv": "D:/PROJETOS/gavb/projetos/python-oracledb/input/CRRC039.csv",
                 "oracle_username": "DEVELOPER",
                 "oracle_password": "developer_123",
                 "oracle_host": "localhost",
