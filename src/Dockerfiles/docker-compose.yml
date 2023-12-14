@@ -1,0 +1,20 @@
+version: "3.6"
+
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/enterprise:latest
+    container_name: oracle19c
+    environment:
+      - ORACLE_SID=ORCLCDB
+      - ORACLE_PDB=ORCLPDB1
+      - ORACLE_PWD=sys_123
+    ports:
+      - 1521:1521
+      - 5500:5500
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+      - oracle-backup:/opt/oracle/backup
+
+volumes:
+  oracle-data:
+  oracle-backup:

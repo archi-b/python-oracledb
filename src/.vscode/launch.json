@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GAVB / oracle: oracle.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "input_file_csv": "D:/PROJETOS/gavb/projetos/input/CRRC039.csv",
+                "oracle_client_path": "C:/Users/pricilak/Desktop/GetNet/instantclient_21_12",
+                "oracle_username": "DEVELOPER",
+                "oracle_password": "developer_123",
+                "oracle_host": "localhost",
+                "oracle_port": "1521",
+                "oracle_service_name": "ORCLPDB1"
+            }
+        }
+    ]
+}
